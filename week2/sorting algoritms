@@ -1,1 +1,20 @@
-Write a sort algorithm yourself. (e.g. bubble sort)
+take number w number from user 
+
+firstone = a
+secondone = b 
+
+divider list ? 
+
+if a > b 
+  dividerrange = b
+list = []
+
+for (i = 0; i <= b; i++) {
+    if a % i === 0 and  b % i === 0 {
+        make a list add the numbers
+    } 
+ return list
+} 
+
+find the members of the list and times with each other
+
