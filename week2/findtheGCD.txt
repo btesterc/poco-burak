@@ -10,7 +10,7 @@ if a > b
 list = []
 
 for (i = 0; i <= b; i++) {
-    if a % i === 0 and  b % i === 0 {
+    if (a % i === 0 and  b % i === 0) {
         make a list add the numbers
     } 
  return list
