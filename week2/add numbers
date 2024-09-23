@@ -1,0 +1,12 @@
+"Allow the user to input numbers, add them and print the result."
+
+before we start we need 
+
+total = 0
+ask how many numbers they want to add or after 2 number ask them whether they  want to add anymore ?
+currentNumber = input( please enter a number)
+
+convert the numbers string to number if necessary.
+add numbers in total
+print total
+
