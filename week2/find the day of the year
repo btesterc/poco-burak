@@ -1,0 +1,23 @@
+Write a program that asks the user for a date. Find the day of the year for the given date. For example,
+January 1st would be 1, and December 31st is 365.
+a) Do not include leap years.
+b) Include leap years. Check the rules for leap years on the internet, and implement them in your program.
+
+
+solution: 
+
+month = [ 31, 28, ....   ]
+
+let monthNumber = input (which month ? 1-12)
+let day = input (which day today ?)
+let year = input (which year ?)
+let totalDay = 0
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0) {
+    month[1] = 29
+}
+for i=0; i< montNUmber-1; i++ ;
+    currentmonthday = month[i]
+    totalDay = currentmonthday + totalDay
+
+return console.log ( "today is the {totalDay + day} day of the year") 
+
