@@ -1,20 +1,23 @@
-take number w number from user 
+take number1 and number2 from user 
 
-firstone = a
-secondone = b 
+firstone =  input a
+secondone = input  b 
 
-divider list ? 
+check  weather they are correct
 
+find the highest number buy using condition.
 if a > b 
   dividerrange = b
-list = []
 
-for (i = 0; i <= b; i++) {
+list = []
+GCD = 1
+for (i = 0; i <= dividerrange; i++) {
     if (a % i === 0 and  b % i === 0) {
-        make a list add the numbers
+      GCD *= i
     } 
- return list
+ return  print( "GCD is {GCD}")
 } 
 
-find the members of the list and times with each other
+
+
 
