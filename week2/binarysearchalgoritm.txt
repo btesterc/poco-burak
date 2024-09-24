@@ -1,38 +1,32 @@
-# Iterative Binary Search Function
-# It returns index of x in given array arr if present,
-# else returns -1
-def binary_search(arr, x):
-    low = 0
-    high = len(arr) - 1
-    mid = 0
+take the number or and the list or create 
+be sure that list in order or sorted.
+
+create a function  it needs a list and number to find)
+    find the length of the list
+    set begin = 0
+    set end = length
+    set mid = 0
+
+    create a loop and check
+    first calculate the mid = (end + begin)/2
  
-    while low <= high:
+    if number < list[mid] ignore the right half
+        end = mid - 1
+    
+    elif number > list[mid] ignore the left side
+        begin = mid + 1
  
-        mid = (high + low) // 2
- 
-        # If x is greater, ignore left half
-        if arr[mid] < x:
-            low = mid + 1
- 
-        # If x is smaller, ignore right half
-        elif arr[mid] > x:
-            high = mid - 1
- 
-        # means x is present at mid
-        else:
-            return mid
+    elif number = list[mid] 
+        return mid
+        # means number is present at mid
+        
  
     # If we reach here, then the element was not present
-    return -1
+ return -1
  
+call function and check the solution
  
-# Test array
-arr = [ 2, 3, 4, 10, 40 ]
-x = 10
- 
-# Function call
-result = binary_search(arr, x)
- 
+ result = function (......)
 if result != -1:
     print("Element is present at index", str(result))
 else:
