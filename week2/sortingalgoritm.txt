@@ -1,0 +1,16 @@
+Write a sort algorithm yourself. (e.g. bubble sort)
+
+
+solution : 
+
+take input or list to sort 
+
+iterate the list for i in range 0 to lengt of the list:
+
+    for y in the range (i+1 and lengt of the list:
+        if  list[i] <= list[y];
+            list[i], list[y] = list[y], list[i]
+        
+    print list
+
+        
