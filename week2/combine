@@ -1,0 +1,31 @@
+ask numbers take them as an input
+
+num1 = input 1
+
+num 2 = input 2
+
+operator = are we goinfg to add or substrac
+
+check the all inputs wheather they are valid**** 
+
+function1 add (num1 num2 )
+    it is going to add numbers and 
+    return totalTime
+
+function2 substrac (num1 num2)
+    return result 
+
+
+
+if operator = "add"
+    function1
+    print(result)
+elif 
+    function2
+    find the bigger number and make the substraction 
+    print (result)
+else 
+    tell them choose correctly. 
+
+
+
