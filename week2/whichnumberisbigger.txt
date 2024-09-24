@@ -11,8 +11,12 @@ calculate function (num1, num2) :
         ELSE   
             print ( you gave us num1 and num2 num2 bigger than num1 )
 
-    ask to user for numbers by input two times
- convert them as number 
+
+
+ask to user for numbers by input two times
+
+convert them as number 
+ 
  check the numbers 
    if 
         they are not real numbers

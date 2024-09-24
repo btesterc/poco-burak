@@ -1,0 +1,25 @@
+create a list from alphabet
+
+ask user for decode or encode
+
+ask user for  input
+
+ask user for key 
+
+if it is decode key = key*-1
+
+create a function (list, key, word)
+
+    create a loop 
+        find the index of the every letter of the word and change the index key quanitity 
+        rewrite the word 
+
+
+        ask user weather continue or not ? 
+
+         if    yes loop is true
+         
+         else
+          loop is false
+          retun new word 
+    
