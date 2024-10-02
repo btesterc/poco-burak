@@ -66,6 +66,7 @@
 
 
 
+// ---------FINDING ROOT SQUARE-------------
 
 // function rootSquare (number){
 //     let root;
@@ -82,6 +83,8 @@
 // }
 
 // console.log(rootSquare(30))
+
+// ---------------CRATE SECOND CHAIN-------------
 
 let secondChain= ""
 function dnaChain (firstChain){
