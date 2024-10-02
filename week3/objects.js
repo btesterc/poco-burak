@@ -1,34 +1,34 @@
-let year = new Date().getFullYear();
-console.log(year)
+// let year = new Date().getFullYear();
+// console.log(year)
 
-new_charecter = {
-    name : "Burak",
-    surname: "Celik",
-    birthyear: 1991,
-    familyMembers: [
-            {
-            wife: "Seda",
-            surname: "Celik",
-            birthyear: 1993
-    }, 
-             {
-                Kid: "Inci",
-                surname: "Celik",
-                birthyear: 2020
+// new_charecter = {
+//     name : "Burak",
+//     surname: "Celik",
+//     birthyear: 1991,
+//     familyMembers: [
+//             {
+//             wife: "Seda",
+//             surname: "Celik",
+//             birthyear: 1993
+//     }, 
+//              {
+//                 Kid: "Inci",
+//                 surname: "Celik",
+//                 birthyear: 2020
 
-    }],
-    summary:  function summary () {
-        console.log(`burak is ${year-this.birthyear} old. his wifes name is ${this.familyMembers[0]["wife"]} and his daughters name is ${this.familyMembers[1]["Kid"]}` )
-    } 
-}
-
-
-console.log(new_charecter)
-console.log(new_charecter.name)
-console.log(new_charecter.summary())
+//     }],
+//     summary:  function summary2 () {
+//         console.log(`burak is ${year-this.birthyear} old. his wifes name is ${this.familyMembers[0]["wife"]} and his daughters name is ${this.familyMembers[1]["Kid"]}` )
+//     } 
+// }
 
 
-// let gameOn = true;
+// console.log(new_charecter)
+// console.log(new_charecter.name)
+// console.log(new_charecter.summary())
+
+
+// let gameOn = False;
 
 // while (gameOn) {
 
@@ -67,7 +67,44 @@ console.log(new_charecter.summary())
 
 
 
+// function rootSquare (number){
+//     let root;
+//     if (number === 0){
+//         return 0;
+//     } 
+//     for (let i =1; i<= number; i++) {
+//         if (i**2 <= number && number < (i+1)**2){
+//             root = i;
+//             return root; 
+//         } 
+//      }
+        
+// }
 
+// console.log(rootSquare(30))
 
+let secondChain= ""
+function dnaChain (firstChain){
+    let compareChain = firstChain.toUpperCase()
+    console.log(compareChain);
+    for(let i = 0; i<compareChain.length; i++){
+        let char = compareChain[i];
+        if (char === "A"){
+            secondChain += "T";
+        }else if (char === "T"){
+            secondChain += "A"
+        }else if (char === "G"){
+            secondChain += "C"
+        } else if (char === "C"){
+            secondChain += "G"
+         } else {
+            alert(`there is ${char} in your DNA. You are ALIEN... Welcome to world We are not enemies. We are FRIENDS`)
+            return 
+         }
+    }
+    return secondChain
+}
 
-
+let testChain2 = "gtcagctagcttagctactgac"
+let testChain ="adgasdga"
+console.log(dnaChain(testChain2))
