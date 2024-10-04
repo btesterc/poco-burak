@@ -113,31 +113,27 @@
 // console.log(dnaChain(testChain2))
 
 
-const items = ["item1", "item2", "item3"];  
+// const items = ["item1", "item2", "item3"];  
 
-const copyItems = [];
+// const copyItems = [];
 
-items.forEach((item) => {
-    copyItems.push(item);
-})
+// items.forEach((item) => {
+//     copyItems.push(item);
+// })
 
-console.log(copyItems)
-
-
-let person = {
-    name: "burak",
-    age: 42,
-
-}
-
-person.name = "lena"
+// console.log(copyItems)
 
 
-let person = {
-    name: "ali",
-    surname: "veli"
-}
+// let person = {
+//     name: "burak",
+//     age: 42,
 
-console.log(person)
+// }
+
+// person.name = "lena"
+
+
+
+// console.log(person)
 
 
