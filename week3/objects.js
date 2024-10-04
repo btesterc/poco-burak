@@ -86,28 +86,58 @@
 
 // ---------------CRATE SECOND CHAIN-------------
 
-let secondChain= ""
-function dnaChain (firstChain){
-    let compareChain = firstChain.toUpperCase()
-    console.log(compareChain);
-    for(let i = 0; i<compareChain.length; i++){
-        let char = compareChain[i];
-        if (char === "A"){
-            secondChain += "T";
-        }else if (char === "T"){
-            secondChain += "A"
-        }else if (char === "G"){
-            secondChain += "C"
-        } else if (char === "C"){
-            secondChain += "G"
-         } else {
-            alert(`there is ${char} in your DNA. You are ALIEN... Welcome to world We are not enemies. We are FRIENDS`)
-            return 
-         }
-    }
-    return secondChain
+// let secondChain= ""
+// function dnaChain (firstChain){
+//     let compareChain = firstChain.toUpperCase()
+//     console.log(compareChain);
+//     for(let i = 0; i<compareChain.length; i++){
+//         let char = compareChain[i];
+//         if (char === "A"){
+//             secondChain += "T";
+//         }else if (char === "T"){
+//             secondChain += "A"
+//         }else if (char === "G"){
+//             secondChain += "C"
+//         } else if (char === "C"){
+//             secondChain += "G"
+//          } else {
+//             alert(`there is ${char} in your DNA. You are ALIEN... Welcome to world We are not enemies. We are FRIENDS`)
+//             return 
+//          }
+//     }
+//     return secondChain
+// }
+
+// let testChain2 = "gtcagctagcttagctactgac"
+// let testChain ="adgasdga"
+// console.log(dnaChain(testChain2))
+
+
+const items = ["item1", "item2", "item3"];  
+
+const copyItems = [];
+
+items.forEach((item) => {
+    copyItems.push(item);
+})
+
+console.log(copyItems)
+
+
+let person = {
+    name: "burak",
+    age: 42,
+
 }
 
-let testChain2 = "gtcagctagcttagctactgac"
-let testChain ="adgasdga"
-console.log(dnaChain(testChain2))
+person.name = "lena"
+
+
+let person = {
+    name: "ali",
+    surname: "veli"
+}
+
+console.log(person)
+
+
