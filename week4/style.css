@@ -28,6 +28,7 @@ nav {
     padding: 20px;
     font-size: 2rem;
     border-bottom: 2px solid black;
+    position: sticky;
 }
 
 .logo {
@@ -75,6 +76,7 @@ main  {
 main .profile-pic {
     width: 80%;
     object-fit: fit;
+
 }
 
 

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 2000px;
+  
+}
+
+body {
+    
+}
+
+div {
+     height: 100px;
+     width: 100px;
+     margin-bottom:10px;
+}
+
+.div-red {
+    background-color: red;
+    /* position: fixed;
+    top:30px;
+    width:100%; */
+}  
+
+.wrapper {
+    
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    margin:20px;
+} 
+
+.div-blue {
+    background-color: blue;
+    /* position: relative;
+    bottom:20px;
+    left: 30px; */
+
+    position: absolute;
+
+    top: 30px;
+    left:50px;
+    
+    
+
+   
+
+    /* z-index: -1; */
+
+} 
+
+.div-green {
+    background-color: green
+    
+    
+    
+}
